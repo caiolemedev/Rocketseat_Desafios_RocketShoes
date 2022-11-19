@@ -26,18 +26,16 @@ a {
 }
 
 .navigation {
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
   padding: 20px;
+  position: absolute;
+  width: 100%;
 }
 
 .navigation ul {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 50px;
+  justify-content: space-around;
 }
 
 .navigation ul li a {
@@ -53,20 +51,71 @@ a {
   padding-left: 30px;
   appearance: none;
   margin-left: 10px;
+  height: 30px;
 }
 
 main {
   display: flex;
+}
+
+.card {
+  width: 700px;
+  background-color: white;
+  padding-top: 80px;
+  padding-left: 120px;
+  padding-right: 50px;
+  font-weight: 700;
+}
+
+.card h1 {
+  font-size: 3.75rem;
+}
+
+.card p {
+  color: var(--text-description);
+  padding-top: 15px;
+}
+
+.card .preco {
+  font-size: 2.5rem;
+  color: var(--text);
+}
+
+.card button {
+  width: 274px;
+  height: 90px;
+  appearance: none;
+  border: none;
+  background-color: var(--button);
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.galery {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.card {
-  width: 360px;
-  background-color: var(--main-background);
+.galery .focusImg {
+  width: 30%;
+  min-width: 500px;
 }
 
-.card h1 {
-  font-weight: 700;
-  font-size: 3.75rem;
+.galery .navGalery {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.galery .navGalery img {
+  width: 200px;
+  height: 120px;
+}
+
+footer {
+  position: absolute;
 }
