@@ -128,15 +128,14 @@ footer {
   position: absolute;
   width: 100%;
   display: flex;
-  height: 150px;
+  height: 152px;
   font-weight: 700;
   align-items: center;
 }
 
 footer .video {
-  height: 100%;
   width: 30%;
-  background-color: var(--footer);
+  background-color: white;
   color: white;
 }
 
@@ -167,9 +166,83 @@ footer .explore {
 @media (max-width: 1100px) {
   .navigation {
     padding: 5px;
+    width: 100%;
+    background-color: var(--main-background);
+    height: 100%;
+    display: none; /*ajustar o menu para mobile*/
   }
 
-  .navigation ul li a {
-    font-size: 0.85rem;
+  .navigation ul {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .card {
+    padding-left: 20px;
+    padding-right: 30px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .card h1 {
+    font-size: 3.5rem;
+  }
+
+  .card button {
+    margin-bottom: 20px;
+  }
+
+  .galery {
+    width: 100%;
+  }
+
+  .galery .focusImg {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .galery .navGalery {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .galery .navGalery img {
+    width: 27%;
+    height: 100px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  footer .video {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+  }
+
+  footer ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  footer .explore {
+    padding: 20px;
+    width: 100%;
   }
 }
