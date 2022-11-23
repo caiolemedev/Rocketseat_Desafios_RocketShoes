@@ -61,6 +61,10 @@ a {
   outline: 2px solid black;
 }
 
+.navigation .expandMenu {
+  display: none;
+}
+
 main {
   display: flex;
 }
@@ -97,6 +101,7 @@ main {
   color: white;
   font-size: 1.5rem;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .galery {
@@ -164,21 +169,45 @@ footer .explore {
 }
 
 @media (max-width: 1100px) {
+  /*.navigation .menuExpanded {
+    padding: 5px;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--main-background);
+    position: fixed;
+  } */
+
   .navigation {
     padding: 5px;
-    width: 100%;
-    background-color: var(--main-background);
-    height: 100%;
-    display: none; /*ajustar o menu para mobile*/
+    background-color: var(--background);
+    position: fixed;
   }
 
   .navigation ul {
     height: 100%;
-    flex-direction: column;
     justify-content: space-evenly;
   }
 
+  .navigation ul li:nth-child(2),
+  .navigation ul li:nth-child(3),
+  .navigation ul li:nth-child(4),
+  .navigation ul li:nth-child(5),
+  .navigation ul li input {
+    display: none;
+  }
+
+  .navigation .expandMenu {
+    display: block;
+  }
+
+  .navigation .expandMenu button {
+    cursor: pointer;
+    border: none;
+    background-color: var(--background);
+  }
+
   main {
+    padding-top: 20px;
     flex-direction: column;
   }
 

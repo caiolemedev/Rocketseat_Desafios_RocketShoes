@@ -21,7 +21,9 @@
     <header>
       <nav class="navigation">
         <ul>
-          <li><img class="logo" src="./assets/logo.svg" alt="logo" /></li>
+          <li class="logo">
+            <a href="#"><img src="./assets/logo.svg" alt="logo" /></a>
+          </li>
           <li><a href="#">HOMEM</a></li>
           <li><a href="#">MULHER</a></li>
           <li><a href="#">CRIANÇA</a></li>
@@ -34,7 +36,47 @@
               placeholder="Pesquisar"
             />
           </li>
-          <li><img src="./assets/icon-bag.svg" alt="sacola" /></li>
+          <li class="bag">
+            <a href="#"><img src="./assets/icon-bag.svg" alt="sacola" /></a>
+          </li>
+          <li class="expandMenu">
+            <button
+              onclick="openMenu()"
+              class="openMenu"
+              aria-label="Abrir Menu"
+              aria-expanded="false"
+            >
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 20H30"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 12H30"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M18 28L30 28"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </li>
         </ul>
       </nav>
     </header>
