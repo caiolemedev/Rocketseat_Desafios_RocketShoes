@@ -309,4 +309,8 @@ footer .explore {
     background-color: var(--main-background);
     margin-left: 85%;
   }
+
+  footer.expandedMenu {
+    display: none;
+  }
 }

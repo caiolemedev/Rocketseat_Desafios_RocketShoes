@@ -6,6 +6,7 @@ var li4 = document.getElementById('li4')
 var li5 = document.getElementById('li5')
 var expandMenu = document.getElementById('expandMenu')
 var buttoncloseMenu = document.getElementById('closeMenu')
+var footer = document.getElementById('footer')
 
 function openMenu() {
   document.body.classList.add('expandedMenu')
@@ -17,6 +18,7 @@ function openMenu() {
   li5.classList.add('expandedMenu')
   expandMenu.classList.add('expandedMenu')
   buttoncloseMenu.classList.add('expandedMenu')
+  footer.classList.add('expandedMenu')
 }
 
 function closeMenu() {
@@ -29,4 +31,5 @@ function closeMenu() {
   li5.classList.remove('expandedMenu')
   expandMenu.classList.remove('expandedMenu')
   buttoncloseMenu.classList.remove('expandedMenu')
+  footer.classList.remove('expandedMenu')
 }
