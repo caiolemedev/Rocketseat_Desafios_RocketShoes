@@ -191,6 +191,8 @@ footer .explore {
 
   .navigation .expandMenu {
     display: block;
+    cursor: pointer;
+    border: none;
   }
 
   .navigation .expandMenu button {
@@ -300,11 +302,11 @@ footer .explore {
     display: none;
   }
 
-  .navigation .closeMenu {
+  .navigation .closeMenu.expandedMenu {
     display: block;
     cursor: pointer;
     border: none;
-    background-color: var(--background);
+    background-color: var(--main-background);
     margin-left: 85%;
   }
 }

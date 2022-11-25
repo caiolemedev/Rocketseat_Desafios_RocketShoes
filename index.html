@@ -20,14 +20,37 @@
   <body>
     <header>
       <nav id="navigation" class="navigation">
-        <ul class="expandedMenu">
+        <button
+          id="closeMenu"
+          onclick="closeMenu()"
+          class="closeMenu"
+          aria-label="Fechar Menu"
+          aria-expanded="true"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 10L10 30M10 10L30 30"
+              stroke="#000000"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <ul id="list">
           <li class="logo">
             <a href="#"><img src="./assets/logo.svg" alt="logo" /></a>
           </li>
-          <li class="expandedMenu"><a href="#">HOMEM</a></li>
-          <li class="expandedMenu"><a href="#">MULHER</a></li>
-          <li class="expandedMenu"><a href="#">CRIANÇA</a></li>
-          <li class="expandedMenu"><a href="#">CUSTOMIZAR</a></li>
+          <li id="li2"><a href="#">HOMEM</a></li>
+          <li id="li3"><a href="#">MULHER</a></li>
+          <li id="li4"><a href="#">CRIANÇA</a></li>
+          <li id="li5"><a href="#">CUSTOMIZAR</a></li>
           <li>
             <input
               class="expandedMenu"
@@ -40,7 +63,7 @@
           <li class="bag">
             <a href="#"><img src="./assets/icon-bag.svg" alt="sacola" /></a>
           </li>
-          <li class="expandMenu">
+          <li id="expandMenu" class="expandMenu">
             <button
               onclick="openMenu()"
               class="openMenu"
@@ -79,28 +102,6 @@
             </button>
           </li>
         </ul>
-        <button
-          onclick="closeMenu()"
-          class="closeMenu"
-          aria-label="Fechar Menu"
-          aria-expanded="true"
-        >
-          <svg
-            width="40"
-            height="40"
-            viewBox="0 0 40 40"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M30 10L10 30M10 10L30 30"
-              stroke="#000000"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </button>
       </nav>
     </header>
     <main>
