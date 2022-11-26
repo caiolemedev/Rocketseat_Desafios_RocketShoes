@@ -1,6 +1,7 @@
 # Rocketseat_Desafios_RocketShoes
 
-![preview](./preview.png)
+![previewWeb](./previewWeb.png)
+![previewMobile](./previewMobile.png)
 
 > Trilha Discover
 
