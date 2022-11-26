@@ -1,10 +1,8 @@
 # Rocketseat_Desafios_RocketShoes
 
-![previewWeb](./previewWeb.png) ![previewMobile](./previewMobile.png)
-
 > Trilha Discover
 
-Sobre: Neste desafio foi desenvolvida uma home page de um e-commerce de tênis.
+Sobre: Neste desafio foi desenvolvida uma home page responsiva de um e-commerce com menu personalizado para mobile usando JS.
 
 [🔗 Clique aqui para acessar](https://caiolemedev.github.io/Rocketseat_Desafios_RocketShoes/)
 
@@ -12,8 +10,14 @@ Sobre: Neste desafio foi desenvolvida uma home page de um e-commerce de tênis.
 
 - HTML
 - CSS
+- JS
 - Git e Github
 
 ## 📧 Contato
 
 @caiolemedev
+
+## Previews
+
+![previewWeb](./previewWeb.png)
+![previewMobile](./previewMobile.png)
