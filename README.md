@@ -6,7 +6,7 @@
 
 Sobre: Neste desafio foi desenvolvida uma home page de um e-commerce de tênis.
 
-[🔗 Clique aqui para acessar]()
+[🔗 Clique aqui para acessar](https://caiolemedev.github.io/Rocketseat_Desafios_RocketShoes/)
 
 ## 🛠 Tecnologias
 
